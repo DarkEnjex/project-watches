@@ -53,9 +53,9 @@
   display: flex;
   margin: 0;
   padding: 0;
-  /* background-color: transparent;
-  fill: black; */
+  background-color: transparent;
   cursor: pointer;
+  border: none;
 }
 .svg-icons {
   fill: black;
