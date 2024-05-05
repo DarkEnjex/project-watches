@@ -64,7 +64,7 @@
 
 .mob-menu {
   width: 200px;
-  height: 812px;
+  height: 100%;
   position: fixed;
   top: 0;
   right: 0;
@@ -184,7 +184,7 @@
   }
   .mob-menu {
     width: 330px;
-    height: 1024px;
+    height: 100%;
     padding-top: 310px;
     padding-bottom: 50px;
     padding-left: 128px;
@@ -194,12 +194,8 @@
     background-size: cover;
     background-position: center;
 
-    background-image: url('../img/header/bg-menu-mob-min.jpg');
-    background-size: cover;
-    background-position: center;
-
     @media (min-resolution: 192dpi) {
-      background-image: url('../img/header/bg-menu-mob-2x-min.jpg');
+      background-image: url('../img/header/bg-menu-tab-2x-min.jpg');
     }
   }
 
