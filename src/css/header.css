@@ -68,7 +68,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  background-color: rgba(12, 12, 12, 0.92);
+  /* background-color: rgba(12, 12, 12, 0.92); */
   padding-left: 64px;
   padding-right: 63px;
   padding-top: 240px;
@@ -80,12 +80,13 @@
   pointer-events: none;
   opacity: 0;
 
-  background-image: url('./img/header/bg-menu-mob-min.jpg');
+  background-image: url('../img/header/bg-menu-mob-min.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 
   @media (min-resolution: 192dpi) {
-    background-image: url('./img/header/bg-menu-mob-2x-min.jpg');
+    background-image: url('../img/header/bg-menu-mob-2x-min.jpg');
   }
 }
 .is-open {
@@ -188,7 +189,20 @@
     padding-bottom: 50px;
     padding-left: 128px;
     padding-right: 129px;
+
+    background-image: url('./img/header/bg-menu-tab-min.jpg');
+    background-size: cover;
+    background-position: center;
+
+    background-image: url('../img/header/bg-menu-mob-min.jpg');
+    background-size: cover;
+    background-position: center;
+
+    @media (min-resolution: 192dpi) {
+      background-image: url('../img/header/bg-menu-mob-2x-min.jpg');
+    }
   }
+
   .menu-list {
     display: flex;
     align-items: center;
@@ -199,7 +213,10 @@
   .menu-sm-list {
     padding-top: 350px;
   }
-
+  .svg-icons {
+    width: 20px;
+    height: 20px;
+  }
   .close-btn {
     padding-top: 26px;
     padding-right: 32px;
