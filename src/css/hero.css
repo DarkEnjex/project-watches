@@ -10,11 +10,24 @@
     letter-spacing: -0.8px;
 }
 .section-hero{
-    padding-top: 60px;}
+    padding-top: 60px;
+padding-left: 20px;
+padding-right: 20px;}
     @media (min-width: 768px){
         .section-hero{
-        padding-top: 80px;}
+        padding-top: 80px;
+        padding-left: 32px;
+padding-right: 32px;
     }
+    }
+    @media (min-width: 768px){
+        .section-hero{
+        padding-top: 80px;
+        padding-left: 65px;
+padding-right: 65px;
+    }
+    }
+
 
 @media (min-width: 768px){
     .title-h1{
