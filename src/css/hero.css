@@ -10,8 +10,12 @@
     letter-spacing: -0.8px;
 }
 .section-hero{
-    padding-top: 80px;
-}
+    padding-top: 60px;}
+    @media (min-width: 768px){
+        .section-hero{
+        padding-top: 80px;}
+    }
+
 @media (min-width: 768px){
     .title-h1{
 color: #0C0C0C;
